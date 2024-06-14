@@ -1,0 +1,76 @@
+.brochure-banner{
+    background-image: url(../images/brochure/brochure-banner.webp);
+}
+.certificate-banner{
+    background-image: url(../images/brochure/certificate-banner.webp);
+}
+.profile-banner{
+    background-image: url(../images/brochure/profile-banner.webp);
+}
+.warranty-banner{
+    background-image: url(../images/brochure/warranty-banner.webp);
+}
+
+.brochure-para p{
+    margin-top: 1.2rem;
+  }
+  
+  
+  .brochure-btn1 button{
+    padding: 10px 50px 10px 50px;
+    margin-top: 20px;
+}
+.brochure-btn1{
+   width: 640px;
+}
+.down-icon{
+    padding-left: 5px;
+}
+.solarmodule-btn button{
+    padding: 6px 60px 6px 60px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.solarmodule-btn2 button{
+    padding: 6px 60px 6px 60px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.solar-moduleimg img{
+    width: 97%;
+    transition: 0.4s;
+    border: 4px solid #d5d5d5;
+}
+.solar-moduleimg img:hover{
+    transform: scale(1.1);
+}
+.solarmodule-btn{
+    width: 97%;
+    text-align: center;
+}
+.solarmodule-btn2{
+    width: 97%;
+    text-align: center;
+}
+html .brochure-container{
+    width: 73%;
+}
+.company-profile img{
+    width: 33%;
+    transition: 0.4s;
+    border: 4px solid #d5d5d5;
+}
+.company-profile img:hover{
+    transform: scale(1.1);
+}
+.company-profile{
+    text-align: center;
+}
+.comapnyprofle-btn button{
+    padding: 6px 60px 6px 60px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.comapnyprofle-btn i{
+    margin-left: 10px;
+}

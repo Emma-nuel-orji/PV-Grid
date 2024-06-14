@@ -1,0 +1,2647 @@
+@media (max-width: 1899.98px) {
+    
+}
+
+@media (max-width: 1599.98px) {
+    .modal-sec1{
+        height: 811px;
+    } 
+}
+
+@media (max-width: 1399.98px) {
+    /* homepage start  */
+
+    .navbar-brand{
+        width: 140px;
+    }
+    header .nav-item {
+        margin-right: 15px;
+    }
+    .nav-item{
+        margin: 0 6px;
+    }
+    .nav-link{
+        font-size: 15px;
+    }
+    header .nav-item .nav-link.active{
+        padding: 6px 10px;
+        margin-top: 3px;
+    }
+    .sticky {
+        height: 70px;
+    }
+    .we-nova{
+        background-position: 124% -79px;
+        height: 570px;
+    }
+    .we-nova h3{
+        font-size: 24px;
+    }
+    .we-nova span{
+        font-size: 30px;
+    }
+    .we-nova .future{
+        min-height: 20.5rem;
+    }
+    .why-choose .why-text h3{
+        font-size: 27px;
+    }
+    .why-choose .energy h5{
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+     .indus-head img{
+        width: 7rem;
+     }
+     .indus-head{
+        top: 48px;
+     }
+     .indus-head .number{
+        width: 8rem;
+        opacity: .8;
+     }
+     .indus-head h5{
+        font-size: 30px;
+     }
+     .product-sec .energy{
+        margin-bottom: 25px;
+     }
+     .region-sec .why-text h3{
+        font-size: 25px;
+     }
+     .modal-sec1{
+        height: 721px;
+     }
+     .counter h2{
+        font-size: 30px;
+     }
+     .blog-sec .card{
+        min-height: 31rem;
+     }
+  
+    /* homepage end  */
+
+    /* about us page start  */
+     
+     .process-sec .future{
+        padding: 25px 20px;
+        min-height: 14rem;
+     }
+     .testi-sec h2{
+        font-size: 28px;
+     }
+     .testimonial .slick-next{
+        top: 13rem;
+     }
+     .testimonial .slick-prev{
+        top: 13rem;
+     }
+     .testimonial .slick-slide{
+        padding: 20px 47px;
+     }
+
+    /* about us page end  */
+
+    /* product page start  */
+
+    .orion-sec .we-are h1{
+        font-size: 35px;
+    }
+    .orion-sec ul li{
+        font-size: 14px;
+    }
+
+    /* product page end  */
+
+    /* gallery page start  */
+
+    .video-testimonials iframe{
+        width: 360px;
+        border-radius: 8px;
+    }
+    .vid{
+        margin-top: 20px;
+    }
+
+   /* gallery page end  */
+
+   /* news page start  */
+
+   .box .icon {
+    top: calc(30% + 50px);
+  }
+  .directional_nav{
+    top: -150px;
+  }
+
+  .news-sec1 .slide_viewer {
+    height: 265px;
+  }
+  .news-sec1 .card-body{
+    min-height: 19rem;
+  }
+
+   /* news page end  */
+
+   /* download center pages start  */
+
+   html .brochure-container {
+    width: 93%;
+    }
+    .brochure-btn1{
+        width: 540px;
+    }
+    .brochure-btn1 button{
+        padding: 7px 50px 7px;
+    }
+    .brochure-sec h2{
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    .solarmodule-btn button {
+        padding: 6px 40px 6px 40px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .solarmodule-btn2 button {
+        padding: 6px 40px 6px 40px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .card1 .card-title{
+        font-size: 19px;
+    }
+    .card1 .card-text{
+        font-size: 15px;
+    }
+    .card1{
+        margin-top: 1.5rem;
+    }
+    .blog-sec1 .common-haed{
+        margin-bottom: 1rem;
+    }
+    .blog-sec1 .card-body {
+        padding: 25px 15px 25px 15px;
+        min-height: 19rem;
+    }
+
+   /* download pages center end  */
+
+   /* Footer responsive start  */
+
+   .f-logo img{
+    width: 40%;
+}
+.footer-sec .f-con{
+    margin-top: 1rem !important;
+}
+.f-con p{
+    font-size: 15px;
+}
+.f-menu-head h4{
+    font-size: 19px;
+    margin-bottom: 6px;
+}
+.f-menu ul li a{
+    font-size: 15px;
+}
+.f-first i, .f-menu i{
+    font-size: 22px;
+}
+.num-icon a{
+    font-size: 15px;
+}
+.num-icon .mb-4{
+    margin-bottom: 20px !important;
+}
+
+
+/* Footer responsive end  */
+}
+
+@media (max-width: 1199.98px) {
+    .navbar-brand{
+        width: 115px;
+    }
+    header .nav-item {
+        margin-right: 4px;
+    }
+    .nav-item{
+        margin: 0 6px;
+    }
+    .nav-link{
+        font-size: 14px;
+    }
+    header .nav-item .nav-link.active{
+        padding: 4px 10px;
+        margin-top: 4px;
+    }
+    .sticky {
+        height: 70px;
+    }
+    /* we are novasys section start  */
+
+    .best-class h3{
+        font-size: 20px;
+    }
+    .we-nova span{
+        font-size: 25px;
+    }
+    .we-nova h3{
+        line-height: 33px;
+    }
+    .we-nova{
+        background-position: 124% -79px;
+        height: 460px;
+    }
+    .circle{
+        padding-top: 6%;
+    }
+    .we-nova .future{
+        padding: 30px 14px;
+        min-height: 21.1rem;
+    }
+    .future p{
+        font-size: 14px;
+    }
+    .future-card1{
+        margin-bottom: 1rem;
+    }
+    .seamless{
+        padding: 30px 14px;
+    }
+    .seamless p{
+        font-size: 14px;
+    }
+    .future-card{
+        margin-bottom: 1rem;
+    }
+
+    .sec-padd5{
+        padding: 2rem 0;
+    }
+    .sec-padd4 {
+        padding-top: 1rem;
+    }
+    .sec-padd6{
+        padding: 2rem 0;
+        padding-bottom: 20px;
+    }
+    .sec-padd3 {
+        padding: 1rem 0;
+    }
+    .sec-padd1{
+        padding-top: 1rem;
+    }
+    .sec-padd8{
+        padding-bottom: 2rem;
+    }
+    /* why choose section start end  */
+
+    .why-choose{
+        margin-top: 0rem;
+     }
+     .why-text p{
+        font-size: 14px;
+     }
+     .energy p{
+        padding-left: 0px;
+        font-size: 14px;
+     }
+     .why-choose h5{
+        font-size: 18px;
+     }
+     .why-choose .why-text h3 {
+        font-size: 21px;
+    }
+      /* why choose section end  */
+
+     /* Quality section start  */
+
+     .common-haed{
+        margin-bottom: 1rem;
+     }
+     .certi-img img{
+        width: 8rem;
+     }
+     html .certificate-sec .mt-5{
+        margin-top: 1rem !important;
+     }
+     .certi-img{
+        margin-top: 13px;
+     }
+     .certificate-sec h3{
+        font-size: 23px;
+     }
+
+     /* Quality section end  */
+
+     /* Industry section start  */
+
+     .indus-head img{
+        width: 7rem;
+     }
+     .indus-head{
+        top: 48px;
+     }
+     .indus-head .number{
+        width: 6rem;
+        opacity: .8;
+     }
+     .indus-head h5{
+        font-size: 28px;
+     }
+     .industry{
+        margin-top: 1rem;
+        text-align: center;
+     }
+
+      /* Industry section end  */
+
+      /* Slider section start  */
+
+      .product-sec .why-text h3{
+        font-size: 22px;
+      }
+      .slider-sec{
+        margin-top: 20px;
+      }
+      .ulpha-series li{
+        font-size: 14px;
+      }
+
+      /* Slider section end  */
+
+      /* region section start  */
+
+      .region-sec{
+        margin-top: 20px;
+      }
+      .region-sec .why-text h3{
+        font-size: 22px;
+      }
+      .counter h2{
+        font-size: 28px;
+      }
+      .counter h5{
+        font-size: 18px;
+      }
+
+      .modal-sec1 {
+        height: 577px;
+      }
+      .milestone-sec{
+        height: 450px;
+      }
+      .milestone-sec h3{
+        font-size: 22px;
+      }
+      .milestone-sec p{
+        font-size: 14px;
+      }
+
+
+      /* region section end  */
+
+       /* blog section start  */
+
+       .blog-sec .common-haed{
+        font-size: 22px;
+        margin-bottom: 32px;
+       }
+       .blog-sec .card-title{
+        font-size: 18px;
+       }
+       .blog-sec .card-text{
+        font-size: 14px;
+       }
+       .blog-sec .card{
+        min-height: 29rem;
+       }
+
+       /* blog section end  */
+
+       /* about us page start */
+
+       .sub-banner{
+        height: 350px;
+       }
+       .sub-banner .banner{
+        height: 365px;
+       }
+       .sub-banner::after{
+        height: 350px;
+       }
+       .banner-text h2 {
+        font-size: 35px;
+       }
+       .primary{
+        margin-top: 20px;
+        font-size: 20px;
+       }
+       .process-sec h6{
+        font-size: 15px;
+       }
+       .process-sec p{
+        font-size: 14px;
+       }
+       .process-sec .future{
+        min-height: 16.5rem;
+       }
+       .factory-sec{
+        text-align: center;
+        margin-bottom: 10px;
+       }
+       .factory-sec1{
+        text-align: center;
+       }
+       .degination span{
+        font-size: 14px;
+       }
+       .our-goal{
+        font-size: 18px;
+       }
+       .ourgoal-para{
+        font-size: 14px;
+        margin-bottom: 0px;
+       }
+       .process-sec .primary{
+        margin-top: 10px;
+    font-size: 18px;
+        margin-bottom: 8px;
+       }
+       .process-sec .common-haed{
+        font-size: 18px;
+        margin-bottom: 30px;
+       }
+       .process-sec .solar-flower{
+        text-align: center;
+       }
+       .solar-flower img{
+        margin-bottom: 8px;
+       }
+       /* .future{
+        margin-top: 12px;
+       } */
+       .testi-sec .common-haed{
+        font-size: 20px;
+        margin-bottom: 30px;
+       }
+       .testi-sec h2{
+        margin-top: 6rem;
+        font-size: 20px;
+        margin-bottom: 0px;
+       }
+       .testimonial .slick-slide{
+        padding: 14px 14px;
+       }
+       .testimonial .slick-prev{
+        left: -23px;
+       }
+       .slick-slide{
+        margin-left: 16px;
+       }
+       .client-text h5{
+        font-size: 18px;
+       }
+       .client-text p{
+        font-size: 14px;
+       }
+       .client-msg p{
+        font-size: 14px;
+       }
+       .future h5{
+        font-size: 18px;
+       }
+       .degination h5 {
+        margin: 15px 0 0 0;
+       }
+       .about-sec h6{
+        line-height: 22px;
+       }
+       /* about us page end */
+
+       /* product page start  */
+
+       .orion-sec .we-img img{
+        width: 70%;
+       }
+       .orion-sec .we-are h1{
+        font-size: 25px;
+       }
+       .product-brochure-btn a{
+        font-size: 15px;
+       }
+
+       /* product page end  */
+
+       /* gallery page start  */
+
+       .video-testimonials iframe{
+            width: 300px;
+            border-radius: 8px;
+        }
+        .vid{
+            margin-top: 20px;
+        }
+
+       /* gallery page end  */
+
+       /* news page responsive start  */
+
+       .we-img::before{
+        display: none;
+    }
+    .we-img{
+        box-shadow: none;
+    }
+    .we-are-sec .we-img img{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .we-are-sec .ps-5{
+        padding-left: 0px !important;
+    }
+    .we-are h3{
+        font-size: 20px;
+    }
+    .we-are p {
+        font-size: 14px;
+        margin-top: 0.3rem;
+    }
+    .news-secbtn .btn{
+        font-size: 15px;
+    }
+    .news-sec1 .card-body {
+        padding: 10px 12px 0px 12px;
+        min-height: 17rem;
+    }
+    .news-moretext, .news-moretext2{
+        font-size: 14px;
+    }
+    .previous_btn,.previous_btn2,.previous_btn3,.previous_btn4,.previous_btn5,.previous_btn6,.previous_btn7,.previous_btn8,.previous_btn9 {
+        left: 15px;
+      }
+      .next_btn,.next_btn2,.next_btn3,.next_btn4,.next_btn5,.next_btn6,.next_btn7,.next_btn8,.next_btn9 {
+        right:15px;
+      }
+
+      .box .icon {
+        top: calc(30% + 44px);
+      }
+      .directional_nav{
+        top: -135px;
+      }
+
+      .news-sec1 .slide_viewer {
+        height: 230px;
+      }
+
+    /* news page responsive end  */
+
+    /* brochure page start  */
+
+    html .brochure-container{
+        width: 96%;
+    }
+    .brochure-btn1{
+        width: 465px;
+    }
+    .brochure-btn1 button{
+        padding: 7px 50px 7px;
+    }
+    .brochure-sec h2{
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    .solarmodule-btn button {
+        padding: 4px 30px 3px 30px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .solarmodule-btn2 button {
+        padding: 4px 17px 4px 17px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    /* brochure page end  */
+
+    /* Career page start  */
+
+       .career-form .contact-form h2{
+        font-size: 25px;
+       }
+       .contact-form .form-control, .career-sec .form-select{
+        font-size: 15px;
+       }
+       .contact-form{
+        padding: 47px;
+       }
+        /* Career page end  */
+
+        /* blog page responsive start  */
+    
+        .card1 .card-title{
+            font-size: 17px;
+        }
+        .card1 .card-text{
+            font-size: 14px;
+        }
+        .card1{
+            margin-top: 1.5rem;
+        }
+        .blog-sec1 .common-haed{
+            margin-bottom: 0rem;
+        }
+        .blog-sec1 .card-body {
+            padding: 25px 15px 25px 15px;
+            min-height: 19.2rem;
+        }
+
+        /* blog page responsive end  */
+
+        /* contact page start  */
+
+        .contact-us-sec .address-sec h3{
+            font-size: 24px;
+        }
+        .address h5{
+            font-size: 17px;
+        }
+
+        /* contact page end  */
+
+        /* Footer responsive start  */
+
+        .f-logo img{
+            width: 40%;
+        }
+        .footer-sec .f-con{
+            margin-top: 1rem !important;
+        }
+        .f-con p{
+            font-size: 14px;
+        }
+        .f-menu-head h4{
+            font-size: 19px;
+            margin-bottom: 6px;
+        }
+        .f-menu ul li a{
+            font-size: 14px;
+        }
+        .f-first i, .f-menu i{
+            font-size: 22px;
+        }
+        .num-icon a{
+            font-size: 14px;
+        }
+        .num-icon .mb-4{
+            margin-bottom: 20px !important;
+        }
+        .f-bottom .powerby{
+            float: left;
+        }
+        .f-bottom h6{
+            margin-bottom: 5px;
+        }
+        .f-bottom a{
+            padding-top: 4px;
+        }
+
+        /* Footer responsive end  */
+
+}
+
+@media (max-width: 991.98px) {
+
+    .navbar-brand{
+        width: 7.4rem;
+        padding-left: 6px;
+    }
+    .navbar-toggler-icon{
+        color: #fff;
+    }
+    .sticky{
+        height: 65px;
+    }
+    .navbar-toggler-icon i{
+        font-size: 25px;
+    }
+    header{
+        background-color: #3e3e3e;
+        height: 65px;
+    }
+    header .container{
+        background-color: #3e3e3e;
+    }
+    header .nav-item .nav-link.active{
+        background-color: #3e3e3e;
+        padding: 0px;
+        color: #69b436;
+        padding-top: 5px;
+        padding-bottom: 6px;
+
+    }
+    #navbarSupportedContent{
+        margin-top: 9px;
+    }
+    header .nav-item{
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    
+    .video_wrap{
+        margin-top: 65px;
+    }
+    /* call to action section start  */
+
+    .Mob-CallToaction {
+        display: block;
+    }
+
+    .social-sharing {
+        display: none;
+    }
+
+    /* .why-text h3{
+        display: none;
+    } */
+    .energy{
+        display: none;
+    }
+    .view-btn{
+        display: none;
+    }
+    .slider-sec .slick-next{
+        right: -3px;
+    }
+    .slider-sec .slick-prev:before, .slider-sec .slick-next:before{
+        font-size: 24px;
+    }
+    .exp-pro{
+        display: none;
+    }
+    .product-sec{
+        height: 440px;
+    }
+    .slider-sec {
+        margin-top: 0px;
+    }
+    .slick-prev{
+        left: -7px;
+    }
+    .w-100 h3{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    /* slider section end  */
+
+    /* we are novasys section start  */
+
+    .best-class h3{
+        font-size: 20px;
+    }
+    .we-nova span{
+        font-size: 25px;
+    }
+    .we-nova h3{
+        line-height: 33px;
+    }
+    .we-nova{
+        background-position: 124% -13px;
+        height: 560px;
+    }
+    .circle{
+        padding-top: 0%;
+    }
+    .we-nova .future{
+        padding: 30px 20px;
+        min-height: 0px;
+    }
+    .future p{
+        font-size: 14px;
+    }
+    .future-card1{
+        margin-bottom: 1rem;
+    }
+    .seamless{
+        padding: 30px 20px;
+    }
+    .seamless p{
+        font-size: 14px;
+    }
+    .future-card{
+        margin-bottom: 1rem;
+    }
+    .sec-padd5{
+        padding: 2rem 0;
+    }
+    .sec-padd4 {
+        padding-top: 1rem;
+    }
+    .sec-padd6{
+        padding: 2rem 0;
+        padding-bottom: 20px;
+    }
+    .sec-padd3 {
+        padding: 1rem 0;
+    }
+    .sec-padd1{
+        padding-top: 1rem;
+    }
+    .sec-padd8{
+        padding-bottom: 2rem;
+    }
+    .why-choose .why-text h5{
+        text-align: left !important;
+    }
+
+     /* we are novasys section end  */
+
+     /* why choose section start end  */
+
+     .why-choose{
+        margin-top: 0rem;
+     }
+     .why-text p{
+        font-size: 14px;
+     }
+     .why-choose .why-text h5{
+        text-align: center;
+     }
+
+     /* why choose section end  */
+
+     /* Quality section start  */
+
+     .common-haed{
+        margin-bottom: 1rem;
+     }
+     .certi-img img{
+        width: 7rem;
+     }
+     html .certificate-sec .mt-5{
+        margin-top: 1rem !important;
+     }
+     .certi-img{
+        margin-top: 13px;
+     }
+
+     /* Quality section end  */
+
+     /* Industry section start  */
+
+     .indus-head img{
+        width: 7rem;
+     }
+     .indus-head{
+        top: 115px;
+     }
+     .indus-head .number{
+        width: 6rem;
+        opacity: .8;
+     }
+     .indus-head h5{
+        font-size: 2rem;
+     }
+     .industry{
+        margin-top: 1rem;
+        text-align: center;
+     }
+
+      /* Industry section end  */
+
+      /* Region section start  */
+
+      .counter h2{
+        font-size: 26px;
+        margin-bottom: 7px;
+      }
+      .counter h5{
+        font-size: 18px;
+      }
+      /* Region section end  */
+      .modal-sec1{
+        height: 454px;
+      }
+      .modal-sec1 .solar-gif{
+        margin-top: 20px;
+      }
+
+      /* Milestone section start  */
+
+      .milestone-sec{
+        height: 373px;
+      }
+      .milestone-sec h3{
+        font-size: 20px;
+      }
+      .milestone-sec p{
+        font-size: 14px;
+      }
+
+      /* Milestone section end  */
+
+      /* Blog section start  */
+
+      .blog-sec h3{
+        font-size: 21px;
+        margin-bottom: 1rem;
+      }
+      .blog-sec h5{
+        font-size: 18px;
+      }
+      .blog-sec p{
+        font-size: 14px;
+      }
+      .blog-sec .card{
+        margin-top: 1rem;
+        min-height: 29rem;
+      }
+      .blog-sec1 .card-body{
+        min-height: 15rem;
+      }
+       /* Blog section end  */
+
+       /* home page end  */
+
+       /* About us page start  */
+
+       .sub-banner{
+        height: 240px;
+       }
+       .sub-banner::after{
+        height: 240px;
+       }
+       .banner-text h2{
+        font-size: 28px;
+        margin-bottom: 10px;
+       }
+       .sub-banner .banner{
+        height: 320px;
+       }
+       .primary{
+        margin-top: 20px;
+        font-size: 20px;
+       }
+       /* .about-sec img{
+        margin-bottom: 10px;
+       } */
+       .about-img1 img{
+        display: none;
+       }
+       .process-sec h6{
+        font-size: 15px;
+       }
+       .process-sec p{
+        font-size: 14px;
+       }
+       .process-sec .future{
+        min-height: 10.5rem;
+       }
+       .factory-sec{
+        text-align: center;
+        margin-bottom: 10px;
+       }
+       .factory-sec1{
+        text-align: center;
+       }
+       .degination span{
+        font-size: 14px;
+       }
+       .our-goal{
+        font-size: 18px;
+       }
+       .ourgoal-para{
+        font-size: 14px;
+        margin-bottom: 0px;
+       }
+       .process-sec .primary{
+        margin-top: 10px;
+        font-size: 16px;
+        margin-bottom: 8px;
+       }
+       .process-sec .common-haed{
+        font-size: 18px;
+       }
+       .process-sec .solar-flower{
+        text-align: center;
+       }
+       .solar-flower img{
+        margin-bottom: 8px;
+       }
+       .future{
+        margin-top: 12px;
+       }
+       .testi-sec .common-haed{
+        font-size: 20px;
+       }
+       .testi-sec h2{
+        margin-top: 6rem;
+        font-size: 20px;
+        margin-bottom: 0px;
+       }
+       .testimonial .slick-slide{
+        padding: 14px 14px;
+       }
+       .testimonial .slick-prev{
+        left: -23px;
+       }
+       .slick-slide{
+        margin-left: 16px;
+       }
+       .client-text h5{
+        font-size: 18px;
+       }
+       .client-text p{
+        font-size: 14px;
+       }
+       .client-msg p{
+        font-size: 14px;
+       }
+       .future h5{
+        font-size: 18px;
+       }
+       .degination h5 {
+        margin: 15px 0 0 0;
+       }
+       .about-sec h6{
+        line-height: 22px;
+       }
+
+       /* About us page end  */
+
+       /* Career page start  */
+
+       .contact-img img{
+        display: none;
+       }
+       .needs-validation{
+        padding-left: 0px;
+       }
+       .contact-form{
+        padding: 20px;
+       }
+       .career-form h2{
+        font-size: 20px;
+        margin-top: 15px;
+       }
+       .career-form p{
+        font-size: 14px;
+       }
+       .contact-form .form-control, .career-sec .form-select{
+        font-size: 14px;
+        margin-bottom: 10px;
+       }
+       .form-select{
+        font-size: 14px;
+       }
+       .form-label{
+        font-size: 15px;
+       }
+       .career-btn{
+        text-align: center;
+       }
+       .career-btn .btn{
+        font-size: 15px;
+       }
+        /* Career page end  */
+
+         /* contact us responsive start  */
+
+            .address-img{
+                margin-bottom: 15px;
+            }
+            .contact-us-sec .mb-5{
+                margin-bottom: 2rem !important;
+            }
+            .contact-form-2{
+                margin-top: 1.5rem;
+            }
+            .address-sec h3{
+                font-size: 20px;
+            }
+            .contact-form-2 h4{
+                margin-top: 28px;
+            }
+            .contact-us-butn{
+                margin-bottom: 10px;
+                text-align: center;
+            }
+            .contact-us-sec2 p{
+                font-size: 14px;
+            }
+            .address h5{
+                margin-bottom: 10px;
+            }
+            .contact-us-butn .btn{
+                font-size: 15px;
+            }
+    
+            /* contact us responsive end  */
+    
+            /* blog page responsive start  */
+    
+            .card1 .card-title{
+                font-size: 18px;
+            }
+            .card1 .card-text{
+                font-size: 14px;
+            }
+            .card1{
+                margin-top: 1.5rem;
+            }
+            .blog-sec1 .common-haed{
+                margin-bottom: 0rem;
+            }
+    
+            /* blog page responsive end  */
+
+            /* product page responsive start  */
+
+        .orion-sec .we-img img{
+            width: 235px;
+            margin-bottom: 2rem;
+        }
+        .we-are h1{
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+        .we-are .sub-text{
+            font-size: 15px;
+        }
+        .we-are li{
+            font-size: 14px;
+        }
+        .we-are ul{
+            line-height: 32px;
+        }
+        .product-brochure-btn{
+            text-align: center;
+        }
+        .product-brochure-btn .btn{
+            font-size: 15px;
+        }
+        .product-img{
+            margin-bottom: 20px;
+        }
+
+        .photo-gallery h2{
+            font-size: 21px;
+        }
+        .video-testimonials iframe{
+            width: 340px;
+        }
+        .vid{
+            margin-top: 20px;
+        }
+
+        /* product page responsive end  */
+
+        /* news page responsive start  */
+
+        .we-img::before{
+            display: none;
+        }
+        .we-img{
+            box-shadow: none;
+        }
+        .we-are-sec .we-img img{
+            width: auto;
+            margin-bottom: 20px;
+        }
+        .we-are-sec .ps-5{
+            padding-left: 0px !important;
+        }
+        .we-are h3{
+            font-size: 20px;
+        }
+        .we-are p {
+            font-size: 14px;
+            margin-top: 0.3rem;
+        }
+        .news-secbtn .btn{
+            font-size: 15px;
+        }
+        .news-sec1 .card-body {
+            padding: 10px 12px 0px 12px;
+            min-height: 9rem;
+        }
+        .news-moretext, .news-moretext2{
+            font-size: 14px;
+        }
+        .previous_btn,.previous_btn2,.previous_btn3,.previous_btn4,.previous_btn5,.previous_btn6,.previous_btn7,.previous_btn8,.previous_btn9 {
+            left: 15px;
+          }
+          .next_btn,.next_btn2,.next_btn3,.next_btn4,.next_btn5,.next_btn6,.next_btn7,.next_btn8,.next_btn9 {
+            right:15px;
+          }
+
+          .box .icon {
+            top: calc(30% + 127px);
+          }
+
+          .directional_nav{
+            top: -265px;
+          }
+          .news-sec1 .slide_viewer {
+            height: 529px;
+          }
+
+        /* news page responsive end  */
+
+        /* brochure page responsive start  */
+
+        html .brochure-container{
+            width: 100%;
+        }
+        .brochure-img{
+        text-align: center;
+        }
+        .brochure-btn1{
+            width: 710px;
+        }
+        .brochure-btn1 button {
+            padding: 7px 14px 7px 14px;
+            margin-top: 20px;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .brochure-para h3{
+            font-size: 20px;
+        }
+        .brochure-para p{
+            font-size: 14px;
+        }
+        .brochure-container h2{
+            font-size: 25px;
+        }
+        .solar-moduleimg img{
+            width: 50%;
+        }
+        .solar-moduleimg{
+            text-align: center;
+        }
+        .solarmodule-btn button, .solarmodule-btn2 button{
+            font-size: 15px;
+            margin-top: 15px;
+            margin-bottom: 30px;
+            padding: 6px 55px 6px 55px;
+        }
+        .solarmodule-btn{
+            width: auto;
+        }
+         .brochure-container .mt-5{
+            margin-top: 0px !important;
+        }
+        .certificate-section .mt-5{
+            margin-top: 0rem !important;
+        }
+        .certificate-section .pt-4{
+            padding-top: 0rem !important;
+        }
+        .company-profile img{
+            width: 50%;
+        }
+        .comapnyprofle-btn button{
+            font-size: 15px;
+            margin-top: 15px;
+            padding: 6px 55px 6px 55px;
+        }
+
+        /* brochure page responsive end  */
+
+                /* Footer responsive start  */
+
+                .f-logo img{
+                    width: 40%;
+                }
+                .footer-sec .f-con{
+                    margin-top: 1rem !important;
+                }
+                .f-con p{
+                    font-size: 14px;
+                }
+                .f-menu-head h4{
+                    font-size: 19px;
+                    margin-bottom: 6px;
+                }
+                .f-menu ul li a{
+                    font-size: 14px;
+                }
+                .f-first i, .f-menu i{
+                    font-size: 22px;
+                }
+                .num-icon a{
+                    font-size: 14px;
+                }
+                .num-icon .mb-4{
+                    margin-bottom: 20px !important;
+                }
+                .f-bottom .powerby{
+                    float: left;
+                }
+                .f-bottom h6{
+                    margin-bottom: 5px;
+                }
+                .f-bottom a{
+                    padding-top: 4px;
+                }
+                .terms-container h2{
+                    font-size: 22px;
+                }
+                .privacy-contanet {
+                    padding: 25px;
+                }
+                .privacy-contanet h4{
+                    font-size: 18px;
+                }
+                .privacy-contanet p{
+                    font-size: 14px;
+                }
+        
+                /* Footer responsive end  */
+
+    
+}
+
+@media (max-width: 767.98px) {
+    
+    .navbar-brand{
+        width: 7.4rem;
+        padding-left: 6px;
+    }
+    .navbar-toggler-icon{
+        color: #fff;
+    }
+    .sticky{
+        height: 65px;
+    }
+    .navbar-toggler-icon i{
+        font-size: 25px;
+    }
+    header{
+        background-color: #3e3e3e;
+        height: 65px;
+    }
+    header .container{
+        background-color: #3e3e3e;
+    }
+    header .nav-item .nav-link.active{
+        background-color: #3e3e3e;
+        padding: 0px;
+        color: #69b436;
+        padding-top: 5px;
+        padding-bottom: 6px;
+
+    }
+    #navbarSupportedContent{
+        margin-top: 9px;
+    }
+    header .nav-item{
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    
+    .video_wrap{
+        margin-top: 65px;
+    }
+    /* call to action section start  */
+
+    .Mob-CallToaction {
+        display: block;
+    }
+
+    .social-sharing {
+        display: none;
+    }
+
+    /* call to action section end  */
+
+    /* slider section start  */
+
+    .why-text h3{
+        display: none;
+    }
+    .energy{
+        display: none;
+    }
+    .view-btn{
+        display: none;
+    }
+    .slider-sec .slick-next{
+        right: -3px;
+    }
+    .slider-sec .slick-prev:before, .slider-sec .slick-next:before{
+        font-size: 24px;
+    }
+    .exp-pro{
+        display: none;
+    }
+    .product-sec{
+        height: 440px;
+    }
+    .slider-sec {
+        margin-top: 0px;
+    }
+    .slick-prev{
+        left: -7px;
+    }
+    .w-100 h3{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    /* slider section end  */
+
+    /* we are novasys section start  */
+
+    .best-class h3{
+        font-size: 20px;
+    }
+    .we-nova span{
+        font-size: 25px;
+    }
+    .we-nova h3{
+        line-height: 33px;
+    }
+    .we-nova{
+        background-position: 124% -13px;
+    }
+    .circle{
+        padding-top: 10%;
+    }
+    .future{
+        padding: 30px 20px;
+    }
+    .future p{
+        font-size: 14px;
+    }
+    .future-card1{
+        margin-bottom: 1rem;
+    }
+    .seamless{
+        padding: 30px 20px;
+    }
+    .seamless p{
+        font-size: 14px;
+    }
+    .future-card{
+        margin-bottom: 1rem;
+    }
+    .sec-padd5{
+        padding: 2rem 0;
+    }
+    .sec-padd4 {
+        padding-top: 1rem;
+    }
+    .sec-padd6{
+        padding: 2rem 0;
+        padding-bottom: 20px;
+    }
+    .sec-padd3 {
+        padding: 1rem 0;
+    }
+    .sec-padd1{
+        padding-top: 1rem;
+    }
+    .sec-padd8{
+        padding-bottom: 2rem;
+    }
+
+
+     /* we are novasys section end  */
+
+     /* why choose section start end  */
+
+     .why-choose{
+        margin-top: 23rem;
+     }
+     .why-text p{
+        font-size: 14px;
+     }
+     .why-choose .why-text h5{
+        text-align: center;
+     }
+
+     /* why choose section end  */
+
+     /* Quality section start  */
+
+     .common-haed{
+        margin-bottom: 1rem;
+     }
+     .certi-img img{
+        width: 7rem;
+     }
+     html .certificate-sec .mt-5{
+        margin-top: 1rem !important;
+     }
+     .certi-img{
+        margin-top: 13px;
+     }
+
+     /* Quality section end  */
+
+     /* Industry section start  */
+
+     .indus-head img{
+        width: 7rem;
+     }
+     .indus-head{
+        top: 115px;
+     }
+     .indus-head .number{
+        width: 6rem;
+        opacity: .8;
+     }
+     .indus-head h5{
+        font-size: 2rem;
+     }
+     .industry{
+        margin-top: 1rem;
+        text-align: center;
+     }
+
+      /* Industry section end  */
+
+      /* Region section start  */
+
+      .counter h2{
+        font-size: 26px;
+        margin-bottom: 7px;
+      }
+      .counter h5{
+        font-size: 18px;
+      }
+      /* Region section end  */
+      .modal-sec1{
+        height: 239px;
+      }
+      .modal-sec1 .solar-gif{
+        margin-top: 20px;
+      }
+
+      /* Milestone section start  */
+
+      .milestone-sec{
+        height: 373px;
+      }
+      .milestone-sec h3{
+        font-size: 20px;
+      }
+      .milestone-sec p{
+        font-size: 14px;
+      }
+
+      /* Milestone section end  */
+
+      /* Blog section start  */
+
+      .blog-sec h3{
+        font-size: 21px;
+        margin-bottom: 1rem;
+      }
+      .blog-sec h5{
+        font-size: 18px;
+      }
+      .blog-sec p{
+        font-size: 14px;
+      }
+      .blog-sec .card{
+        margin-top: 1rem;
+      }
+      .blog-sec1 .card-body{
+        min-height: 15rem;
+      }
+       /* Blog section end  */
+
+       /* home page end  */
+
+       /* About us page start  */
+
+       .sub-banner{
+        height: 240px;
+       }
+       .sub-banner::after{
+        height: 240px;
+       }
+       .banner-text h2{
+        font-size: 28px;
+        margin-bottom: 10px;
+       }
+       .sub-banner .banner{
+        height: 320px;
+       }
+       .primary{
+        margin-top: 20px;
+        font-size: 20px;
+       }
+       /* .about-sec img{
+        margin-bottom: 10px;
+       } */
+       .about-img1 img{
+        display: none;
+       }
+       .process-sec h6{
+        font-size: 15px;
+       }
+       .process-sec p{
+        font-size: 14px;
+       }
+       .factory-sec{
+        text-align: center;
+        margin-bottom: 10px;
+       }
+       .factory-sec1{
+        text-align: center;
+       }
+       .degination span{
+        font-size: 14px;
+       }
+       .our-goal{
+        font-size: 18px;
+       }
+       .ourgoal-para{
+        font-size: 14px;
+        margin-bottom: 0px;
+       }
+       .process-sec .primary{
+        margin-top: 10px;
+        font-size: 16px;
+        margin-bottom: 8px;
+       }
+       .process-sec .common-haed{
+        font-size: 18px;
+       }
+       .process-sec .solar-flower{
+        text-align: center;
+       }
+       .solar-flower img{
+        margin-bottom: 8px;
+       }
+       .future{
+        margin-top: 12px;
+       }
+       .testi-sec .common-haed{
+        font-size: 20px;
+       }
+       .testi-sec h2{
+        margin-top: 6rem;
+        font-size: 20px;
+        margin-bottom: 0px;
+       }
+       .testimonial .slick-slide{
+        padding: 14px 14px;
+       }
+       .testimonial .slick-prev{
+        left: -23px;
+       }
+       .slick-slide{
+        margin-left: 16px;
+       }
+       .client-text h5{
+        font-size: 18px;
+       }
+       .client-text p{
+        font-size: 14px;
+       }
+       .client-msg p{
+        font-size: 14px;
+       }
+       .future h5{
+        font-size: 18px;
+       }
+       .degination h5 {
+        margin: 15px 0 0 0;
+       }
+       .about-sec h6{
+        line-height: 22px;
+       }
+
+       /* About us page end  */
+
+       /* Career page start  */
+
+       .contact-img img{
+        display: none;
+       }
+       .needs-validation{
+        padding-left: 0px;
+       }
+       .contact-form{
+        padding: 20px;
+       }
+       .career-form h2{
+        font-size: 20px;
+        margin-top: 15px;
+       }
+       .career-form p{
+        font-size: 14px;
+       }
+       .contact-form .form-control, .career-sec .form-select{
+        font-size: 14px;
+        margin-bottom: 10px;
+       }
+       .form-select{
+        font-size: 14px;
+       }
+       .form-label{
+        font-size: 15px;
+       }
+       .career-btn{
+        text-align: center;
+       }
+       .career-btn .btn{
+        font-size: 15px;
+       }
+        /* Career page end  */
+
+         /* contact us responsive start  */
+
+            .address-img{
+                margin-bottom: 15px;
+            }
+            .contact-us-sec .mb-5{
+                margin-bottom: 2rem !important;
+            }
+            .contact-form-2{
+                margin-top: 1.5rem;
+            }
+            .address-sec h3{
+                font-size: 20px;
+            }
+            .contact-form-2 h4{
+                margin-top: 28px;
+            }
+            .contact-us-butn{
+                margin-bottom: 10px;
+                text-align: center;
+            }
+            .contact-us-sec2 p{
+                font-size: 14px;
+            }
+            .address h5{
+                margin-bottom: 10px;
+            }
+            .contact-us-butn .btn{
+                font-size: 15px;
+            }
+    
+            /* contact us responsive end  */
+    
+            /* blog page responsive start  */
+    
+            .card1 .card-title{
+                font-size: 18px;
+            }
+            .card1 .card-text{
+                font-size: 14px;
+            }
+            .card1{
+                margin-top: 1.5rem;
+            }
+            .blog-sec1 .common-haed{
+                margin-bottom: 0rem;
+            }
+    
+            /* blog page responsive end  */
+
+            /* product page responsive start  */
+
+        .orion-sec .we-img img{
+            width: 235px;
+            margin-bottom: 2rem;
+        }
+        .we-are h1{
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+        .we-are .sub-text{
+            font-size: 15px;
+        }
+        .we-are li{
+            font-size: 14px;
+        }
+        .we-are ul{
+            line-height: 32px;
+        }
+        .product-brochure-btn{
+            text-align: center;
+        }
+        .product-brochure-btn .btn{
+            font-size: 15px;
+        }
+        .product-img{
+            margin-bottom: 20px;
+        }
+
+        .photo-gallery h2{
+            font-size: 21px;
+        }
+        .video-testimonials iframe{
+            width: 340px;
+        }
+        .vid{
+            margin-top: 20px;
+        }
+
+        /* product page responsive end  */
+
+        /* news page responsive start  */
+
+        .we-img::before{
+            display: none;
+        }
+        .we-img{
+            box-shadow: none;
+        }
+        .we-are-sec .we-img img{
+            width: auto;
+            margin-bottom: 20px;
+        }
+        .we-are-sec .ps-5{
+            padding-left: 0px !important;
+        }
+        .we-are h3{
+            font-size: 20px;
+        }
+        .we-are p {
+            font-size: 14px;
+            margin-top: 0.3rem;
+        }
+        .news-secbtn .btn{
+            font-size: 15px;
+        }
+        .news-sec1 .card-body {
+            padding: 10px 12px 0px 12px;
+            min-height: 9rem;
+        }
+        .news-moretext, .news-moretext2{
+            font-size: 14px;
+        }
+        .previous_btn,.previous_btn2,.previous_btn3,.previous_btn4,.previous_btn5,.previous_btn6,.previous_btn7,.previous_btn8,.previous_btn9 {
+            left: 15px;
+          }
+          .next_btn,.next_btn2,.next_btn3,.next_btn4,.next_btn5,.next_btn6,.next_btn7,.next_btn8,.next_btn9 {
+            right:15px;
+          }
+
+          .box .icon {
+            top: calc(30% + 7px);
+          }
+
+
+
+        /* news page responsive end  */
+
+        /* brochure page responsive start  */
+
+        html .brochure-container{
+            width: 100%;
+        }
+        .brochure-img{
+        text-align: center;
+        }
+        .brochure-btn1{
+            width: 710px;
+        }
+        .brochure-btn1 button {
+            padding: 7px 14px 7px 14px;
+            margin-top: 20px;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .brochure-para h3{
+            font-size: 20px;
+        }
+        .brochure-para p{
+            font-size: 14px;
+        }
+        .brochure-container h2{
+            font-size: 25px;
+        }
+        .solar-moduleimg img{
+            width: 50%;
+        }
+        .solar-moduleimg{
+            text-align: center;
+        }
+        .solarmodule-btn button, .solarmodule-btn2 button{
+            font-size: 15px;
+            margin-top: 15px;
+            margin-bottom: 30px;
+            padding: 6px 55px 6px 55px;
+        }
+        .solarmodule-btn{
+            width: auto;
+        }
+         .brochure-container .mt-5{
+            margin-top: 0px !important;
+        }
+        .certificate-section .mt-5{
+            margin-top: 0rem !important;
+        }
+        .certificate-section .pt-4{
+            padding-top: 0rem !important;
+        }
+        .company-profile img{
+            width: 50%;
+        }
+        .comapnyprofle-btn button{
+            font-size: 15px;
+            margin-top: 15px;
+            padding: 6px 55px 6px 55px;
+        }
+
+        /* brochure page responsive end  */
+
+        /* Footer responsive start  */
+
+        .f-logo img{
+            width: 26%;
+        }
+        .footer-sec .f-con{
+            margin-top: 1rem !important;
+        }
+        .f-con p{
+            font-size: 14px;
+        }
+        .f-menu-head h4{
+            font-size: 19px;
+            margin-bottom: 6px;
+        }
+        .f-menu ul li a{
+            font-size: 14px;
+        }
+        .f-first i, .f-menu i{
+            font-size: 22px;
+        }
+        .num-icon a{
+            font-size: 14px;
+        }
+        .num-icon .mb-4{
+            margin-bottom: 20px !important;
+        }
+        .f-bottom .powerby{
+            float: left;
+        }
+        .f-bottom h6{
+            margin-bottom: 5px;
+        }
+        .f-bottom a{
+            padding-top: 4px;
+        }
+
+        /* Footer responsive end  */
+
+}
+
+@media (max-width: 575.98px) {
+
+    .navbar-brand{
+        width: 7.4rem;
+        padding-left: 6px;
+    }
+    .navbar-toggler-icon{
+        color: #fff;
+    }
+    .sticky{
+        height: 65px;
+    }
+    .navbar-toggler-icon i{
+        font-size: 25px;
+    }
+    header{
+        background-color: #3e3e3e;
+        height: 65px;
+    }
+    header .container{
+        background-color: #3e3e3e;
+    }
+    header .nav-item .nav-link.active{
+        background-color: #3e3e3e;
+        padding: 0px;
+        color: #69b436;
+        padding-top: 5px;
+        padding-bottom: 6px;
+
+    }
+    #navbarSupportedContent{
+        margin-top: 9px;
+    }
+    header .nav-item{
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    
+    .video_wrap{
+        margin-top: 65px;
+    }
+    /* call to action section start  */
+
+    .Mob-CallToaction {
+        display: block;
+    }
+
+    .social-sharing {
+        display: none;
+    }
+
+    /* call to action section end  */
+
+    /* slider section start  */
+
+    .why-text h3{
+        display: none;
+    }
+    .energy{
+        display: none;
+    }
+    .view-btn{
+        display: none;
+    }
+    .slider-sec .slick-next{
+        right: -3px;
+    }
+    .slider-sec .slick-prev:before, .slider-sec .slick-next:before{
+        font-size: 24px;
+    }
+    .exp-pro{
+        display: none;
+    }
+    .product-sec{
+        height: 440px;
+    }
+    .slider-sec {
+        margin-top: 0px;
+    }
+    .slick-prev{
+        left: -7px;
+    }
+    .w-100 h3{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    /* slider section end  */
+
+    /* we are novasys section start  */
+
+    .best-class h3{
+        font-size: 20px;
+    }
+    .we-nova span{
+        font-size: 25px;
+    }
+    .we-nova h3{
+        line-height: 33px;
+    }
+    .we-nova{
+        background-position: 124% -13px;
+        height: 550px;
+    }
+    .circle{
+        padding-top: 10%;
+    }
+    .future{
+        padding: 30px 20px;
+        min-height: 0px;
+    }
+    .future p{
+        font-size: 14px;
+    }
+    .future-card1{
+        margin-bottom: 1rem;
+    }
+    .seamless{
+        padding: 30px 20px;
+    }
+    .seamless p{
+        font-size: 14px;
+    }
+    .future-card{
+        margin-bottom: 1rem;
+    }
+    .sec-padd5{
+        padding: 2rem 0;
+    }
+    .sec-padd4 {
+        padding-top: 1rem;
+    }
+    .sec-padd6{
+        padding: 2rem 0;
+        padding-bottom: 20px;
+    }
+    .sec-padd3 {
+        padding: 1rem 0;
+    }
+    .sec-padd1{
+        padding-top: 1rem;
+    }
+    .sec-padd8{
+        padding-bottom: 2rem;
+    }
+
+
+     /* we are novasys section end  */
+
+     /* why choose section start end  */
+
+     .why-choose{
+        margin-top: 23rem;
+     }
+     .why-text p{
+        font-size: 14px;
+     }
+     .why-choose .why-text h5{
+        text-align: center;
+        margin-top: 45px;
+     }
+
+     /* why choose section end  */
+
+     /* Quality section start  */
+
+     .common-haed{
+        margin-bottom: 1rem;
+     }
+     .certi-img img{
+        width: 7rem;
+     }
+     html .certificate-sec .mt-5{
+        margin-top: 1rem !important;
+     }
+     .certi-img{
+        margin-top: 13px;
+     }
+
+     /* Quality section end  */
+
+     /* Industry section start  */
+
+     .indus-head img{
+        width: 7rem;
+     }
+     .indus-head{
+        top: 105px;
+     }
+     .indus-head .number{
+        width: 6rem;
+        opacity: .8;
+     }
+     .indus-head h5{
+        font-size: 2rem;
+     }
+     .industry{
+        margin-top: 1rem;
+     }
+
+      /* Industry section end  */
+
+      /* Region section start  */
+
+      .counter h2{
+        font-size: 26px;
+        margin-bottom: 7px;
+      }
+      .counter h5{
+        font-size: 18px;
+      }
+      .counter span{
+        font-size: 26px;
+      }
+      .region-sec{
+        margin-top: 0px;
+      }
+      /* Region section end  */
+      .modal-sec1{
+        height: 239px;
+      }
+      .modal-sec1 .solar-gif{
+        margin-top: 20px;
+      }
+
+      /* Milestone section start  */
+
+      .milestone-sec{
+        height: 390px;
+      }
+      .milestone-sec h3{
+        font-size: 20px;
+      }
+      .milestone-sec p{
+        font-size: 14px;
+      }
+
+      /* Milestone section end  */
+
+      /* Blog section start  */
+
+      .blog-sec h3{
+        font-size: 21px;
+        margin-bottom: 1rem;
+      }
+      .blog-sec h5{
+        font-size: 18px;
+      }
+      .blog-sec p{
+        font-size: 14px;
+      }
+      .blog-sec .card{
+        margin-top: 1rem;
+        min-height: 29rem;
+      }
+
+       /* Blog section end  */
+
+       /* home page end  */
+
+       /* About us page start  */
+
+       .sub-banner{
+        height: 240px;
+       }
+       .sub-banner::after{
+        height: 240px;
+       }
+       .banner-text h2{
+        font-size: 28px;
+        margin-bottom: 10px;
+       }
+       .sub-banner .banner{
+        height: 320px;
+       }
+       .primary{
+        margin-top: 20px;
+        font-size: 20px;
+       }
+       .process-sec h6{
+        font-size: 15px;
+       }
+       .process-sec p{
+        font-size: 14px;
+       }
+       .process-sec .future{
+        min-height: 11.5rem;
+       }
+       .factory-sec{
+        text-align: center;
+        margin-bottom: 10px;
+       }
+       .factory-sec1{
+        text-align: center;
+       }
+       .degination span{
+        font-size: 14px;
+       }
+       .our-goal{
+        font-size: 18px;
+       }
+       .ourgoal-para{
+        font-size: 14px;
+        margin-bottom: 0px;
+       }
+       .process-sec .primary{
+        margin-top: 10px;
+        font-size: 16px;
+        margin-bottom: 8px;
+       }
+       .process-sec .common-haed{
+        font-size: 18px;
+       }
+       .process-sec .solar-flower{
+        text-align: center;
+       }
+       .solar-flower img{
+        margin-bottom: 8px;
+       }
+       .future{
+        margin-top: 12px;
+       }
+       .testi-sec .common-haed{
+        font-size: 20px;
+       }
+       .testi-sec h2{
+        margin-top: 6rem;
+        font-size: 20px;
+        margin-bottom: 0px;
+       }
+       .testimonial .slick-slide{
+        padding: 14px 14px;
+       }
+       .testimonial .slick-prev{
+        left: -13px;
+       }
+       .slick-slide{
+        margin-left: 16px;
+       }
+       .client-text h5{
+        font-size: 18px;
+       }
+       .client-text p{
+        font-size: 14px;
+       }
+       .client-msg p{
+        font-size: 14px;
+       }
+       .future h5{
+        font-size: 18px;
+       }
+       .degination h5 {
+        margin: 8px 0 0 0;
+       }
+       .about-sec h6{
+        line-height: 22px;
+       }
+
+       /* About us page end  */
+
+       /* Career page start  */
+
+       .contact-img img{
+        display: none;
+       }
+       .needs-validation{
+        padding-left: 0px;
+       }
+       .contact-form{
+        padding: 20px;
+       }
+       .career-form h2{
+        font-size: 20px;
+        margin-top: 15px;
+       }
+       .career-form p{
+        font-size: 14px;
+       }
+       .contact-form .form-control, .career-sec .form-select{
+        font-size: 14px;
+        margin-bottom: 10px;
+       }
+       .form-select{
+        font-size: 14px;
+       }
+       .form-label{
+        font-size: 15px;
+       }
+       .career-btn{
+        text-align: center;
+       }
+       .career-btn .btn{
+        font-size: 15px;
+       }
+        /* Career page end  */
+
+        /* contact us responsive start  */
+
+        .contact-us-sec .ps-0{
+        padding-left: 13px !important;
+        }
+        .address-img{
+            text-align: left !important;
+            margin-bottom: 15px;
+        }
+        .contact-us-sec .mb-5{
+            margin-bottom: 2rem !important;
+        }
+        .contact-form-2{
+            margin-top: 1.5rem;
+        }
+        .address-sec h3{
+            font-size: 20px;
+        }
+        .contact-form-2 h4{
+            margin-top: 28px;
+        }
+        .contact-us-butn{
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .contact-us-sec2 p{
+            font-size: 14px;
+        }
+        .address h5{
+            margin-bottom: 10px;
+        }
+        .contact-us-butn .btn{
+            font-size: 15px;
+        }
+
+        /* contact us responsive end  */
+
+        /* blog page responsive start  */
+
+        .card1 .card-title{
+            font-size: 18px;
+        }
+        .card1 .card-text{
+            font-size: 14px;
+        }
+        .card1{
+            margin-top: 1.5rem;
+        }
+        .blog-sec1 .common-haed{
+            margin-bottom: 0rem;
+        }
+
+        /* blog page responsive end  */
+
+        /* product page responsive start  */
+
+        .orion-sec .we-img img{
+            width: 200px;
+            margin-bottom: 2rem;
+        }
+        .we-are h1{
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+        .we-are .sub-text{
+            font-size: 15px;
+        }
+        .we-are li{
+            font-size: 14px;
+        }
+        .we-are ul{
+            line-height: 32px;
+        }
+        .product-brochure-btn{
+            text-align: center;
+        }
+        .product-brochure-btn .btn{
+            font-size: 15px;
+        }
+        .product-img{
+            margin-bottom: 20px;
+        }
+
+        .photo-gallery h2{
+            font-size: 21px;
+        }
+        .video-testimonials iframe{
+            width: 367px;
+        }
+        .vid{
+            margin-top: 20px;
+        }
+
+        /* product page responsive end  */
+
+        /* news page responsive start  */
+
+        .we-img::before{
+            display: none;
+        }
+        .we-img{
+            box-shadow: none;
+        }
+        .we-are-sec .we-img img{
+            width: auto;
+            margin-bottom: 20px;
+        }
+        .we-are-sec .ps-5{
+            padding-left: 0px !important;
+        }
+        .we-are h3{
+            font-size: 20px;
+        }
+        .we-are p {
+            font-size: 14px;
+            margin-top: 0.3rem;
+        }
+        .news-secbtn .btn{
+            font-size: 15px;
+        }
+        .news-sec1 .card-body {
+            padding: 0px 12px 0px 12px;
+            min-height: 13rem;
+        }
+        .news-moretext, .news-moretext2{
+            font-size: 14px;
+        }
+        .previous_btn,.previous_btn2,.previous_btn3,.previous_btn4,.previous_btn5,.previous_btn6,.previous_btn7,.previous_btn8,.previous_btn9 {
+            left: 15px;
+          }
+          .next_btn,.next_btn2,.next_btn3,.next_btn4,.next_btn5,.next_btn6,.next_btn7,.next_btn8,.next_btn9 {
+            right:15px;
+          }
+          .box .icon {
+            top: calc(55% + -12px);
+          }
+
+          .directional_nav{
+            top: -170px;
+          }
+          .news-sec1 .slide_viewer {
+            height: 290px;
+          }
+
+
+        /* news page responsive end  */
+
+        /* brochure page responsive start  */
+
+        html .brochure-container{
+            width: 100%;
+        }
+        .brochure-btn1{
+            width: 373px;
+        }
+        .brochure-btn1 button {
+            padding: 7px 14px 7px 14px;
+            margin-top: 20px;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .brochure-para h3{
+            font-size: 20px;
+        }
+        .brochure-para p{
+            font-size: 14px;
+        }
+        .brochure-container h2{
+            font-size: 20px;
+        }
+        .solar-moduleimg img{
+            width: 100%;
+        }
+        .solarmodule-btn button, .solarmodule-btn2 button{
+            font-size: 15px;
+            margin-top: 15px;
+            margin-bottom: 30px;
+            padding: 6px 40px 6px 40px;
+        }
+         .brochure-container .mt-5{
+            margin-top: 0px !important;
+        }
+        .certificate-section .mt-5{
+            margin-top: 0rem !important;
+        }
+        .certificate-section .pt-4{
+            padding-top: 0rem !important;
+        }
+        .company-profile img{
+            width: 80%;
+        }
+        .comapnyprofle-btn button{
+            font-size: 15px;
+            margin-top: 15px;
+            padding: 6px 40px 6px 40px;
+        }
+
+        /* brochure page responsive end  */
+
+        /* Footer responsive start  */
+
+        .f-logo img{
+            width: 26%;
+        }
+        .footer-sec .f-con{
+            margin-top: 1rem !important;
+        }
+        .f-con p{
+            font-size: 14px;
+        }
+        .f-menu-head h4{
+            font-size: 19px;
+            margin-bottom: 6px;
+        }
+        .f-menu ul li a{
+            font-size: 14px;
+        }
+        .f-first i, .f-menu i{
+            font-size: 22px;
+        }
+        .num-icon a{
+            font-size: 14px;
+        }
+        .num-icon .mb-4{
+            margin-bottom: 20px !important;
+        }
+        .f-bottom .powerby{
+            float: left;
+        }
+        .f-bottom h6{
+            margin-bottom: 5px;
+        }
+        .f-bottom a{
+            padding-top: 4px;
+        }
+        .terms-container h2{
+            font-size: 22px;
+        }
+        .privacy-contanet {
+            padding: 15px;
+        }
+        .privacy-contanet h4{
+            font-size: 18px;
+        }
+        .privacy-contanet p{
+            font-size: 14px;
+        }
+
+        /* Footer responsive end  */
+}

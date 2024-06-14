@@ -1,0 +1,66 @@
+.contact-banner{
+    background-image: url(../images/contactus/contact-banner.webp);
+}
+
+.address-sec h5{
+    color: #193185;
+}
+
+.address-img i{ 
+    font-size: 15px;
+    background-color:#193185;
+    padding: 12px;
+}
+.address-img i::before{ 
+    color: #fff;
+}
+.address-sec h3{
+ letter-spacing: 0;
+}
+.address h5{
+    letter-spacing: 0;
+    font-size: 19px;
+}
+.contact-us-sec p{
+    text-align: inherit;
+}
+.contact-us-sec a{
+    color: #000;
+    text-decoration: none;
+}
+.contact-us-sec a:hover{
+    color: #193185;
+}
+.s-link ul i{
+    color: #172031;
+}
+
+.contact-form{
+    padding: 40px 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.contact-form .form-control {
+    background-color: #efefef;
+    border-radius: 3px;
+    border: 1px solid #efefef;
+   
+}
+.contact-form .form-label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+form .col-md-6:nth-child(3), form .col-md-6:nth-child(4){
+    margin-top: 30px;
+}
+.contact-form h4{
+    margin-top: 40px;
+    letter-spacing: .5px;
+    
+}
+
+.contact-us-butn .btn-warning{
+    border-color: #193185;
+}
+
+

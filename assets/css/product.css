@@ -1,0 +1,66 @@
+.sub-banner2{
+    background-image: url(../images/products/banner/orion1.webp);
+}
+.sub-banner-vega{
+    background-image: url(../images/products/banner/vega-banner.webp);
+}
+.sub-banner-alpha{
+    background-image: url(../images/products/banner/alpha-banner.webp);
+}
+.sub-banner-pulsar{
+    background-image: url(../images/products/banner/pulsar-banner.webp);
+}
+.sub-banner-rigel{
+    background-image: url(../images/products/banner/rigel-banner.webp);
+}
+.products-link img{
+    float: left;
+    padding-right: 18px;
+}
+.products-link .accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #f15922;
+}
+
+.products-link .accordion-button:focus {
+   box-shadow: none;
+}
+.products-link .accordion-item a{
+    color:blue;
+}
+.features, .benefits{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 40px;
+    border-top: 2px solid #f15922;
+    min-height: 46.3rem;
+}
+.features h5, .benefits h5, .usage h5{
+font-size: 1rem;
+}
+.gallery .card-title {
+    font-size: 16px;
+}
+.gallery .card-body{
+    min-height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-img img{
+    transition: all .3s ease-in;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 6px;
+}
+.product-img img:hover{
+    transform: translateY(-20px);
+}
+
+/* this is for approvals page start */
+.approvals span{
+    font-size: 20px;
+}
+.approvals h2{
+    line-height: 40px;
+}
+/* this is for approvals page end */

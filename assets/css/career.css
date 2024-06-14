@@ -1,0 +1,61 @@
+.career-banner{
+    background-image: url(../images/career/career-banner1.webp);
+}
+.career-sec .tab_container ul{
+    list-style: none;
+    padding-left: 0;
+}
+.career-sec .tab_container ul li{
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.career-sec ul.tabs {
+    height: 45px;
+    border-bottom: 3px solid #e5e5e5;
+}
+.career-form {
+    background-image: url(../images/career/career-bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.needs-validation{
+    padding-left: 36px;
+}
+.career-sec img{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.career-form img {
+    float: left;
+}
+
+.contact-form {
+    padding: 39px;
+    background-color: #fff;
+}
+
+.form-sec {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contact-form .form-control, .career-sec .form-select {
+    background-color: #f3f5f5;
+    border-radius: 3px;
+    border: 1px solid #ededed;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+form h2{
+    color: #193185;
+}
+
+form .btn-black{
+    background-color: #f6a62c;
+}
+
+
+

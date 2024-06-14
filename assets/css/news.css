@@ -1,0 +1,273 @@
+.news-banner{
+    background-image: url(../images/news/news-banner.webp);
+}
+
+
+.we-are p{
+  margin-top: 1.2rem;
+}
+
+
+.we-img, .director{
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+.we-img::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-width: 20px;
+  background-color: #193185;
+  bottom: 18px;
+  right: 30px;
+  z-index: -1;
+}
+
+.news-secbtn button{
+  padding: 7px 24px 7px 24px;
+}
+
+.news-sec1 .card-body {
+    padding: 25px 20px 25px 20px;
+    min-height: 16.4rem;
+}
+.news-sec1 .card1{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .3s ease-in-out;
+}
+
+/* .news-moretext {
+    display: none;
+  } */
+  /* .news-moretext2 {
+    display: none;
+  }
+  .news-moretext3 {
+    display: none;
+  } */
+
+  /* slider  */
+
+  .slider,.slider2,.slider3,.slider4,.slider5,.slider6,.slider7,.slider8,.slider9  {
+    margin: 0 auto;
+    max-width: 940px;
+  }
+  
+  .slide_viewer  {
+    height: 310px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide_group,.slide_group2,.slide_group3,.slide_group4,.slide_group5,.slide_group6,.slide_group7,.slide_group8,.slide_group9 {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  
+  .slide,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9 {
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .slide:first-child,.slide2:first-child,.slide3:first-child,.slide4:first-child,.slide5:first-child,.slide6:first-child,.slide7:first-child,.slide8:first-child,.slide9:first-child {
+    display: block;
+  }
+  
+  .slide_buttons {
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+  }
+  
+  a.slide_btn {
+    color: #474544;
+    font-size: 42px;
+    margin: 0 0.175em;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .slide_btn.active, .slide_btn:hover {
+    color: #428CC6;
+    cursor: pointer;
+  }
+  
+  .directional_nav {
+    margin: 0 auto;
+    max-width: 940px;
+    position: relative;
+    top: -165px;
+    z-index: 1;
+  }
+
+  .directional_nav i{
+    font-size: 35px;
+    color: #000;
+    opacity: 2;
+  }
+  
+  .previous_btn,.previous_btn2,.previous_btn3,.previous_btn4,.previous_btn5,.previous_btn6,.previous_btn7,.previous_btn8,.previous_btn9{
+    bottom: 0;
+    left: 16px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+  }
+  
+  .next_btn,.next_btn2,.next_btn3,.next_btn4,.next_btn5,.next_btn6,.next_btn7,.next_btn8,.next_btn9 {
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    right: 16px;
+    top: 0;
+  }
+  
+  .previous_btn,.previous_btn2,.previous_btn3,.previous_btn4,.previous_btn5,.previous_btn6,.previous_btn7,.previous_btn8,.previous_btn9, .next_btn,.next_btn2,.next_btn3,.next_btn4,.next_btn5,.next_btn6,.next_btn7,.next_btn8,.next_btn9 {
+    cursor: pointer;
+    /* height: 65px; */
+    opacity: 0.5;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    /* width: 0px; */
+  }
+  
+  .next_btn:hover,.next_btn2:hover,.next_btn3:hover,.next_btn4:hover,.next_btn5:hover,.next_btn6:hover,.next_btn7:hover,.next_btn8:hover,.next_btn9:hover {
+    opacity: 1;
+  }
+
+  .previous_btn:hover,.previous_btn2:hover,.previous_btn3:hover,.previous_btn3:hover,.previous_btn4:hover,.previous_btn5:hover,.previous_btn6:hover,.previous_btn7:hover,.previous_btn8:hover,.previous_btn9:hover{
+    opacity: 1;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .previous_btn,.previous_btn2,.previous_btn3,.previous_btn4,.previous_btn5,.previous_btn6,.previous_btn7,.previous_btn8,.previous_btn9 {
+      left: 50px;
+    }
+    .next_btn,.next_btn2,.next_btn3,.next_btn4,.next_btn5,.next_btn6,.next_btn7,.next_btn8,.next_btn9 {
+      right: 50px;
+    }
+  }
+
+
+  /* Fancy box css  */
+
+.box{
+    background: #193185;
+   
+    text-align: center;
+    /* box-shadow: 0 5px 10px rgba(0,0,0,.8); */
+    overflow: hidden;
+    position: relative;
+    /* margin-top: 50px; */
+}
+.box:before,
+.box:after{
+    content: '';
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    opacity: 0;
+    transform: scaleX(0);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    transition: all 0.5s ease 0s;
+}
+.box:after{
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;       
+    transform: scaleY(0);
+}
+.box:hover:before,
+.box:hover:after{
+    opacity: 1;
+}
+.box:hover:before{ transform: scaleX(1); }
+.box:hover:after{ transform: scaleY(1); }
+.box img{
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+.box:hover img{ 
+    opacity: .2;
+    transform: scale(1.2);
+}
+.box .box-content{
+    color: #fff;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 10%;
+    right: 0;
+    z-index: 2;
+    transition: all 0.5s ease 0s;
+}
+.box:hover .box-content{
+    opacity: 1;
+    top: calc(50% - 25px);
+}
+.box .title{
+    color: #fff;
+    font-size:18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 2px;
+}
+
+.box .icon{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transform: translateY(-50%);
+    position: absolute;
+    right: 0;
+    top: calc(50% + 7px);
+    z-index: 1;
+    transition: all 0.5s ease 0.1s;
+}
+.box:hover .icon{ right: 0; }
+.box .icon li{
+    margin: 0 3px;
+    display: inline-block;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+.box .icon li:nth-child(2){ transition: all 0.3s ease .2s; }
+.box:hover .icon li{ opacity: 1; }
+.box .icon li a{
+    color: #193185;
+    background-color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+    display: block;
+    transition: all 0.3s ease;
+}
+.box .icon li a:hover{
+    color: #fff;
+    background-color: #193185;
+}
+
+
+/* Fancy box css end */

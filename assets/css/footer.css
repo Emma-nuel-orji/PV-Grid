@@ -1,0 +1,95 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth
+}
+footer{
+    background-color: #EAEAEA;
+    
+}
+footer a{
+    color: #393939 ;
+    text-decoration: none ;
+    letter-spacing: .5px;
+}
+.f-first ul, .certificate-img ul {
+    display: flex;
+    padding-left: 0;
+}
+.f-social-link ul li, .certificate-img ul li{
+    list-style: none;
+    margin-right: 12px;
+}
+.f-first i, .f-menu i{
+    font-size: 25px;
+}
+footer h4{
+    color:#000;
+    display: inline-block;
+    font-size: 21px;
+}
+.f-menu ul li{
+    list-style: square;
+    color: #393939;
+    line-height: 36px;
+    text-align: inherit;
+}
+.f-menu a:hover, .f-location a:hover, .f-con a:hover, .f-bottom a:hover {
+    color: #000000;
+    font-weight: 600;
+    
+}
+.f-menu ul li a, .f-location p a{
+    font-size: 15px;
+    
+}
+footer h5{
+    color: #f15922;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+h5 span{
+    font-size: 7px;
+}
+.f-location p{
+    text-align: inherit;
+    word-spacing: 5px;
+    margin-left: 17px;
+    line-height: 26px;
+}
+.f-bottom .powerby{
+    float: right;
+    padding-top: 4px;
+}
+.f-bottom .powerby h6{
+    padding-top: 4px;
+}
+.bottom-footer{
+    background-color: #C8C8C8;
+}
+.f-bottom h6, .f-bottom a{
+    font-size: 14px;
+    padding-top: 8px;
+    color: #918b8b;
+    margin-bottom: 9px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.f-bottom .powerby span{
+    padding-top: 6px;
+}
+.twitter-icon{
+    filter: grayscale(0);
+    transition: .2s ease-in-out;
+    opacity: 0.6;
+}
+.twitter-icon:hover{
+    filter: none;
+    opacity: 1;
+}
+.footer-sec .f-con p{
+    text-align: left;
+}
