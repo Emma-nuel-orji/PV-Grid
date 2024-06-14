@@ -40,7 +40,54 @@
   <link rel="stylesheet" href="assets/css/responsive.css">
   <link href="../unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
   
-  
+  <style>
+   
+    .subscription-form {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 400px;
+        width: 160%;
+        text-align: center;
+        
+    }
+    .subscription-form h2 {
+        margin-bottom: 20px;
+        color: #333333;
+    }
+    .subscription-form input[type="email"] {
+        width: calc(100% - 22px);
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        outline: none;
+        font-size: 16px;
+    }
+    .subscription-form button {
+        width: 94%;
+        padding: 10px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .subscription-form button:hover {
+        background-color: #0056b3;
+    }
+    .message {
+        display: none;
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #e7f4e4;
+        color: #2e7d32;
+        border: 1px solid #c8e6c9;
+    }
+</style>
   
 
   <!--google analytics-->
@@ -158,8 +205,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <li class="nav-item">
                   <a class="nav-link " aria-current="page" href="learning.html">Learning Center</a>
                 </li>
-                
-                <li class="nav-item dropdown">
+
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="shop.html">Shop</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle"  href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">Shop</a>
                   <ul class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown1">
@@ -170,7 +220,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <li><a class="dropdown-item" href="video-gallery.html">Solar Street Light</a></li>
                     <li><a class="dropdown-item" href="news.html">Accessories</a></li>
                   </ul>
-                </li>
+                </li> -->
 
                 <!-- <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle"  href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
@@ -779,7 +829,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                            </a>
                        </div>
                        <div class="f-con mt-4">
-                           <p class="mb-4">Novasys: Stringent quality tests and perfection when it comes to the output is a way of life for us.</p>
+                           <p class="mb-4">PVGrid: Stringent quality tests and perfection when it comes to the output is a way of life for us.</p>
                            <div class="f-social-link">
                                <ul>
                                    <li><a href="https://www.facebook.com/NovasysGreenergy" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
@@ -801,26 +851,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                        <ul>
                            <li><a href="index.html">Home</a></li>
                            <li><a href="about.html">About Us</a></li>
-                           <li><a href="photo-gallery.html">Gallery</a></li>
+                           <li><a href="services.html">Services</a></li>
+                           <li><a href="blogs.html">Projects</a></li>
+                           <li><a href="News.html">News & Events</a></li>
                            <li><a href="career.html">Careers</a></li>
-                           <li><a href="blogs.html">Blogs</a></li>
                            <li><a href="contact-us.html">Contact Us</a></li>
-                       </ul>
-                   </div>
-               </div>
-               <div class="col-lg-2 col-md-4 col-sm-6">
-                   <div class="f-menu">
-                       
-                       <div class="f-menu-head">
-                           <h4>Our Products</h4>
-                       </div>
-                       <ul>
-                        <!--<li><a href="orion.html">Orion</a></li>-->
-                        <!--<li><a href="vega.html">Vega</a></li>-->
-                        <!--<li><a href="pulsar.html">Pulsar</a></li>-->
-                        <li><a href="rigel-plus.html">Rigel Plus</a></li>
-                        <li><a href="alpha-plus.html">Alpha Plus</a></li>
-                           
                        </ul>
                    </div>
                </div>
@@ -834,7 +869,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                            <a href="tel:74000 83000"><i class="fas fa-phone-alt me-3" ></i>+91 -74000 83000</a>
                        </div>
                        <div class="f-email mb-4">
-                           <a href="mailto:info@novasysgreen.com"><i class="fas fa-mail-bulk  me-3"></i>info@novasysgreen.com</a>
+                           <a href="mailto:info@novasysgreen.com"><i class="fas fa-mail-bulk  me-3"></i>info@pvgrid.com</a>
                        </div>
                        <div class="f-email d-flex">
                            <div class="loc-icon">
@@ -847,6 +882,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                          </div>
                    </div>
                </div>
+
+               <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="f-menu">
+                  <div class="subscription-form">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    <button onclick="subscribe()">Subscribe</button>
+                    <div class="message" id="successMessage">Thank you for subscribing!</div>
+                </div>
+                 
+                    
+                </div>
+            </div>
            </div>
        </div>
    </footer>
@@ -857,7 +905,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <div class="row">
                    <div class="col-lg-4 col-md-4 col-sm-6">
                        <div class="copyright">
-                           <h6>© 2024 Novasys All rights reserved</h6>
+                           <h6>© 2024 VP Grid All rights reserved</h6>
                        </div>
                    </div>
                    <div class="col-lg-4 col-md-4 col-sm-6 text-center">
@@ -868,7 +916,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                    </div>
                    <div class="col-lg-4 col-md-4 col-sm-6">
                        <div class="powerby">
-                           <h6><a href="https://www.bizhighlighters.com/" target="_blank">Powerd by: bizhighlighters</a></h6>
+                           <h6><a href="https://www.pvgrid.com/" target="_blank">Powerd by: PV_Grid</a></h6>
                        </div>
                    </div>
                </div>
@@ -876,6 +924,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
        </div>
    </section>
    <!-----------bottom footer end  ------------>
+ <script>
+    function subscribe() {
+        var emailInput = document.getElementById('email');
+        var email = emailInput.value;
+
+        if (validateEmail(email)) {
+            document.getElementById('successMessage').style.display = 'block';
+            emailInput.value = ''; // Clear the input field
+        } else {
+            alert('Please enter a valid email address.');
+        }
+    }
+
+    function validateEmail(email) {
+        var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return regex.test(email);
+    }
+</script>
  <!-- footer end -->
   <div id="footer"></div>
   <!-- footer end -->
@@ -889,6 +955,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- <script src="assets/js/custom-gallery.js"></script> -->
   <script>$(".js-video-button").modalVideo({ youtube: { controls: 1, nocookie: true, rel: 0 } });</script>
   <script src="unpkg.com/aos%402.3.1/dist/aos.js"></script> 
+
+
 
   <script>
    
