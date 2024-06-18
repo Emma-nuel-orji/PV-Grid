@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Page</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .faq-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+        }
+        
+        .faq-container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+        
+        .faq-item {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        
+        .faq-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        
+        .faq-title:hover {
+            background-color: #e9e9e9;
+        }
+        
+        .faq-icon {
+            font-size: 24px;
+        }
+        
+        .faq-content {
+            display: none;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+        }
+        
+        .faq-content p {
+            margin: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="faq-container">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq-item">
+            <div class="faq-title" onclick="toggleFAQ(this)">
+                <span>What is your return policy?</span>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-content">
+                <p>We offer a 30-day return policy. If you are not satisfied with your purchase, you can return it within 30 days of the purchase date for a full refund.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-title" onclick="toggleFAQ(this)">
+                <span>How can I track my order?</span>
+                <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-content">
+                <p>You can track your order by logging into your account and clicking on 'Order History'. You will find the tracking information for each order.</p>
+            </div>
+        </div>
+        <!-- Add more FAQ items as needed -->
+    </div>
+    <script src="scripts.js"></script>
+    <script>
+        function toggleFAQ(element) {
+            const content = element.nextElementSibling;
+            const icon = element.querySelector('.faq-icon');
+        
+            if (content.style.display === "block") {
+                content.style.display = "none";
+                icon.textContent = "+";
+            } else {
+                content.style.display = "block";
+                icon.textContent = "-";
+            }
+        }
+        
+    </script>
+</body>
+</html>

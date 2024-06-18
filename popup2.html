@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form to Display and Copy</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        
+        form {
+            margin-bottom: 20px;
+        }
+        
+        #detailsContainer div {
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #e0f7fa;
+            border: 1px solid #00acc1;
+            border-radius: 5px;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        #detailsContainer div:hover {
+            background-color: #b2ebf2;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Form to Display and Copy Details</h1>
+    
+    <form id="userForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Details:</h2>
+    <div id="detailsContainer"></div>
+
+    <script src="scripts.js"></script>
+    <script>
+        document.getElementById('userForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the form from submitting normally
+        
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+        
+            // Create a new div to display the details
+            const detailDiv = document.createElement('div');
+            detailDiv.textContent = `Name: ${name}, Email: ${email}`;
+            
+            // Add click event to copy the text
+            detailDiv.addEventListener('click', function() {
+                // Create a temporary textarea to copy the text from
+                const tempTextArea = document.createElement('textarea');
+                tempTextArea.value = detailDiv.textContent;
+                document.body.appendChild(tempTextArea);
+                tempTextArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(tempTextArea);
+        
+                alert('Details copied to clipboard');
+            });
+        
+            // Add the new div to the details container
+            document.getElementById('detailsContainer').appendChild(detailDiv);
+        
+            // Clear the form
+            document.getElementById('userForm').reset();
+        });
+        
+    </script>
+</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Notification</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/izitoast/dist/css/iziToast.min.css">
+</head>
+<body>
+    <script src="scripts.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/izitoast/dist/js/iziToast.min.js"></script>
+    
+    <script>
+        var country_list = ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Anguilla",
+    "Antigua & Barbuda", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan", "Bahamas",
+    "Bahrain", "Bangladesh", "Belarus", "Belgium", "Benin", "Bermuda", "Bhutan", "Bolivia",
+    "Bosnia & Herzegovina", "Botswana", "Brazil", "British Virgin Islands", "Brunei", "Bulgaria",
+    "Burundi", "Cambodia", "Cameroon", "Cape Verde", "Chad", "Chile", "China", "Colombia", "Congo",
+    "Costa Rica", "Cote D Ivoire", "Croatia", "Cuba", "Cyprus", "Czech Republic", "Denmark", "Djibouti",
+    "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Estonia",
+    "Ethiopia", "Falkland Islands", "Faroe Islands", "Finland", "France", "French Polynesia",
+    "French West Indies", "Gabon", "Gambia", "Georgia", "Germany", "Gibraltar", "Greece", "Greenland",
+    "Grenada", "Guatemala", "Guinea", "Haiti", "Honduras", "Hong Kong", "Hungary", "Iceland", "India",
+    "Indonesia", "Ireland", "Israel", "Italy", "Jamaica", "Japan", "Jersey", "Jordan",
+    "Kazakhstan", "Kenya", "Kuwait", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya",
+    "Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Macedonia", "Madagascar", "Malawi",
+    "Malaysia", "Maldives", "Mali", "Malta", "Mauritania", "Mauritius", "Mexico", "Moldova", "Monaco",
+    "Mongolia", "Montenegro", "Montserrat", "Morocco", "Mozambique", "Namibia", "Nepal", "Netherlands",
+    "Netherlands Antilles", "New Caledonia", "New Zealand", "Nicaragua", "Norway", "Oman", "Pakistan",
+    "Palestine", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal",
+    "Puerto Rico", "Qatar", "Reunion", "Romania", "Russia", "Rwanda", "Saint Pierre & Miquelon",
+    "San Marino", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore",
+    "Slovakia", "Slovenia", "South Africa", "South Korea", "Spain", "Sri Lanka", "Sudan", "Suriname",
+    "Swaziland", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand",
+    "Togo", "Tonga", "Trinidad & Tobago", "Tunisia", "Turkey", "Turkmenistan", "Ukraine",
+    "United Arab Emirates", "United Kingdom", "Uruguay", "Uzbekistan", "Venezuela", "Vietnam",
+    "Virgin Islands (US)", "Yemen"
+];
+
+function choice(array) {
+    return array[Math.floor(Math.random() * array.length)];
+}
+
+function randomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function payinout() {
+    var nu = randomNumber(500, 200000);
+    var con = choice(country_list);
+    var mode = choice(['deposited', 'withdrew']);
+
+    iziToast.show({
+        icon: "material-icons",
+        color: "rgba(40, 167, 69, 0.9)", // Semi-transparent green
+        message: "An Investor from " + con + " " + mode + " $" + nu + " ...",
+        position: "topRight",
+        timeout: 7000,
+        animateInside: true,
+        progressBar: true,
+        close: true,
+        onClosing: function(instance, toast, closedBy) {
+            setTimeout(payinout, 5000); // Wait for 5 seconds before showing the next popup
+        }
+    });
+}
+
+// Initial call to start the notifications
+setTimeout(payinout, 1000); // Start after 1 second
+
+    </script>
+</body>
+</html> -->

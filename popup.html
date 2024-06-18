@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Notification</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .popup {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: rgba(40, 167, 69, 0.5); /* Semi-transparent green background */
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            opacity: 0.2;
+            transition: opacity 0.5s ease-in-out;
+        }
+        
+        .popup-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .popup-message {
+            margin-bottom: 10px;
+        }
+        
+        .close-btn {
+            cursor: pointer;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        
+        .progress-bar-container {
+            width: 100%;
+            background-color: #555;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 5px;
+            background-color: #4caf50;
+            animation: progressBar 5s linear;
+        }
+        
+        @keyframes progressBar {
+            from { width: 100%; }
+            to { width: 0; }
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="popup" class="popup">
+        <div class="popup-header">
+            <div id="popupMessage" class="popup-message"></div>
+            <div class="close-btn" onclick="cancelPopup()">X</div>
+        </div>
+        <div class="progress-bar-container">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script>
+        const popup = document.getElementById('popup');
+const popupMessage = document.getElementById('popupMessage');
+const progressBar = document.getElementById('progressBar');
+const closeBtn = document.querySelector('.close-btn');
+
+const messages = [
+    "Mike just deposited",
+    "Sarah just signed up",
+    "John completed a purchase",
+    "Anna sent a message"
+];
+
+let messageIndex = 0;
+let cancelTimeout;
+
+function showPopup(message) {
+    popupMessage.textContent = message;
+    popup.style.opacity = 1;
+
+    progressBar.style.animation = 'none';
+    setTimeout(() => {
+        progressBar.style.animation = '';
+    }, 10);
+
+    cancelTimeout = setTimeout(() => {
+        popup.style.opacity = 0;
+        setTimeout(nextMessage, 500);
+    }, 5000);
+}
+
+function nextMessage() {
+    messageIndex = (messageIndex + 1) % messages.length;
+    showPopup(messages[messageIndex]);
+}
+
+function startPopupCycle() {
+    clearTimeout(cancelTimeout);
+    nextMessage();
+}
+
+function cancelPopup() {
+    clearTimeout(cancelTimeout);
+    popup.style.opacity = 0;
+    setTimeout(startPopupCycle, 5000);
+}
+
+startPopupCycle();
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Notification</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .popup {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: rgba(40, 167, 69, 0.9); /* Semi-transparent green background */
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        
+        .popup-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .popup-message {
+            margin-bottom: 10px;
+        }
+        
+        .close-btn {
+            cursor: pointer;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        
+        .progress-bar-container {
+            width: 100%;
+            background-color: #555;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 5px;
+            background-color: #4caf50;
+            animation: progressBar 5s linear;
+        }
+        
+        @keyframes progressBar {
+            from { width: 100%; }
+            to { width: 0; }
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="popup" class="popup">
+        <div class="popup-header">
+            <div id="popupMessage" class="popup-message"></div>
+            <div class="close-btn" onclick="cancelPopup()">x</div>
+        </div>
+        <div class="progress-bar-container">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script>
+        const popup = document.getElementById('popup');
+const popupMessage = document.getElementById('popupMessage');
+const progressBar = document.getElementById('progressBar');
+const closeBtn = document.querySelector('.close-btn');
+
+const messages = [
+    "Mike just deposited",
+    "Sarah just signed up",
+    "John completed a purchase",
+    "Anna sent a message"
+];
+
+let messageIndex = 0;
+let cancelTimeout;
+
+function showPopup(message) {
+    popupMessage.textContent = message;
+    popup.style.opacity = 1;
+
+    progressBar.style.animation = 'none';
+    setTimeout(() => {
+        progressBar.style.animation = '';
+    }, 10);
+
+    cancelTimeout = setTimeout(() => {
+        popup.style.opacity = 0;
+        setTimeout(nextMessage, 500);
+    }, 5000);
+}
+
+function nextMessage() {
+    messageIndex = (messageIndex + 1) % messages.length;
+    showPopup(messages[messageIndex]);
+}
+
+function startPopupCycle() {
+    clearTimeout(cancelTimeout);
+    nextMessage();
+}
+
+function cancelPopup() {
+    clearTimeout(cancelTimeout);
+    popup.style.opacity = 0;
+    setTimeout(startPopupCycle, 5000);
+}
+
+startPopupCycle();
+
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Notification</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .popup {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #28a745;
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        
+        .popup-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .popup-message {
+            margin-bottom: 10px;
+        }
+        
+        .close-btn {
+            cursor: pointer;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        
+        .progress-bar-container {
+            width: 100%;
+            background-color: #555;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 5px;
+            background-color: #4caf50;
+            animation: progressBar 5s linear;
+        }
+        
+        @keyframes progressBar {
+            from { width: 100%; }
+            to { width: 0; }
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="popup" class="popup">
+        <div class="popup-header">
+            <div id="popupMessage" class="popup-message"></div>
+            <div class="close-btn" onclick="cancelPopup()">X</div>
+        </div>
+        <div class="progress-bar-container">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script>
+        const popup = document.getElementById('popup');
+const popupMessage = document.getElementById('popupMessage');
+const progressBar = document.getElementById('progressBar');
+const closeBtn = document.querySelector('.close-btn');
+
+const messages = [
+    "Mike just deposited",
+    "Sarah just signed up",
+    "John completed a purchase",
+    "Anna sent a message"
+];
+
+let messageIndex = 0;
+let popupInterval;
+
+function showPopup(message) {
+    popupMessage.textContent = message;
+    popup.style.opacity = 1;
+
+    progressBar.style.animation = 'none';
+    setTimeout(() => {
+        progressBar.style.animation = '';
+    }, 10);
+
+    setTimeout(() => {
+        popup.style.opacity = 0;
+        setTimeout(nextMessage, 500);
+    }, 5000);
+}
+
+function nextMessage() {
+    messageIndex = (messageIndex + 1) % messages.length;
+    showPopup(messages[messageIndex]);
+}
+
+function startPopupCycle() {
+    clearInterval(popupInterval);
+    popupInterval = setInterval(nextMessage, 5500);
+    nextMessage();
+}
+
+function cancelPopup() {
+    clearInterval(popupInterval);
+    popup.style.opacity = 0;
+    setTimeout(startPopupCycle, 5000);
+}
+
+startPopupCycle();
+
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Notification</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .popup {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #28a745;
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        
+        .popup-message {
+            margin-bottom: 10px;
+        }
+        
+        .progress-bar-container {
+            width: 100%;
+            background-color: #555;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 5px;
+            background-color: #4caf50;
+            animation: progressBar 5s linear;
+        }
+        
+        @keyframes progressBar {
+            from { width: 100%; }
+            to { width: 0; }
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="popup" class="popup">
+        <div id="popupMessage" class="popup-message"></div>
+        <div class="progress-bar-container">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script>
+        const popup = document.getElementById('popup');
+const popupMessage = document.getElementById('popupMessage');
+const progressBar = document.getElementById('progressBar');
+
+const messages = [
+    "Mike just deposited",
+    "Sarah just signed up",
+    "John completed a purchase",
+    "Anna sent a message"
+];
+
+let messageIndex = 0;
+
+function showPopup(message) {
+    popupMessage.textContent = message;
+    popup.style.opacity = 1;
+
+    progressBar.style.animation = 'none';
+    setTimeout(() => {
+        progressBar.style.animation = '';
+    }, 10);
+
+    setTimeout(() => {
+        popup.style.opacity = 0;
+    }, 5000);
+}
+
+function nextMessage() {
+    showPopup(messages[messageIndex]);
+    messageIndex = (messageIndex + 1) % messages.length;
+    setTimeout(nextMessage, 5000);
+}
+
+nextMessage();
+
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Notification</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            width: 70%;
+        }
+        
+        .popup {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #28a745;
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        
+        .popup-message {
+            margin-bottom: 10px;
+        }
+        
+        .progress-bar-container {
+            width: 100%;
+            background-color: #555;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 5px;
+            background-color: #4caf50;
+            animation: progressBar 5s linear;
+        }
+        
+        @keyframes progressBar {
+            from { width: 100%; }
+            to { width: 0; }
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="popup" class="popup">
+        <div id="popupMessage" class="popup-message"></div>
+        <div class="progress-bar-container">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script>
+        const popup = document.getElementById('popup');
+const popupMessage = document.getElementById('popupMessage');
+const progressBar = document.getElementById('progressBar');
+
+const messages = [
+    "Mike just deposited",
+    "Sarah just signed up",
+    "John completed a purchase",
+    "Anna sent a message"
+];
+
+let messageIndex = 0;
+
+function showPopup(message) {
+    popupMessage.textContent = message;
+    popup.style.opacity = 1;
+
+    progressBar.style.animation = 'none';
+    setTimeout(() => {
+        progressBar.style.animation = '';
+    }, 10);
+
+    setTimeout(() => {
+        popup.style.opacity = 0;
+    }, 5000);
+}
+
+function nextMessage() {
+    showPopup(messages[messageIndex]);
+    messageIndex = (messageIndex + 1) % messages.length;
+    setTimeout(nextMessage, 5000);
+}
+
+nextMessage();
+
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Notification</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .popup {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        
+        .popup-message {
+            margin-bottom: 10px;
+        }
+        
+        .progress-bar-container {
+            width: 100%;
+            background-color: #555;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 5px;
+            background-color: #4caf50;
+            animation: progressBar 5s linear;
+        }
+        
+        @keyframes progressBar {
+            from { width: 100%; }
+            to { width: 0; }
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="popup" class="popup">
+        <div id="popupMessage" class="popup-message"></div>
+        <div class="progress-bar-container">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script>
+        const popup = document.getElementById('popup');
+const popupMessage = document.getElementById('popupMessage');
+const progressBar = document.getElementById('progressBar');
+
+const messages = [
+    "Mike just deposited",
+    "Sarah just signed up",
+    "John completed a purchase",
+    "Anna sent a message"
+];
+
+let messageIndex = 0;
+
+function showPopup(message) {
+    popupMessage.textContent = message;
+    popup.style.opacity = 1;
+
+    progressBar.style.animation = 'none';
+    setTimeout(() => {
+        progressBar.style.animation = '';
+    }, 10);
+
+    setTimeout(() => {
+        popup.style.opacity = 0;
+    }, 5000);
+}
+
+function nextMessage() {
+    showPopup(messages[messageIndex]);
+    messageIndex = (messageIndex + 1) % messages.length;
+    setTimeout(nextMessage, 5000);
+}
+
+nextMessage();
+
+    </script>
+</body>
+</html> -->
